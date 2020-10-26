@@ -34,7 +34,7 @@ for page in range(1,10):
          "jumpPage": page-1 if page > 1 else 1,
          "page": page,
          }
-    r = redis.Redis(host="182.92.213.90", password="iZ2ze09u5f5l2hvp4y83toZ", db=0, decode_responses=True, port="3718")
+    r = redis.Redis(host="182.92.213.99", password="nicaibudaode", db=0, decode_responses=True, port="3718")
     response = requests.post(url=url, headers=headers,data=data,timeout=30)
 
 
